@@ -15,10 +15,14 @@ After a long and long research, I’ve figured out that recently I ran a sudo ap
 2. Go to advanced options and boot to your stable backup linux kernel
 3. Open your terminal and start removing the unstable linux kernel 5.15.0–112
 
-`sudo apt remove linux-image-5.15.0-112-generic linux-image-unsigned-5.15.0-112-generic linux-modules-5.15.0-112-generic linux-libc-dev linux-modules-extra-5.15.0-112-generic`
+```
+sudo apt remove linux-image-5.15.0-112-generic linux-image-unsigned-5.15.0-112-generic linux-modules-5.15.0-112-generic linux-libc-dev linux-modules-extra-5.15.0-112-generic
+```
 
 4. Update your GRUB and Reboot!
 
-`sudo update-grub; sudo reboot`
+```
+sudo update-grub; sudo reboot
+```
 
 Problem solved!
