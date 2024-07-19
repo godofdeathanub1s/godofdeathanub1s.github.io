@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neswin</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <header>
+        <div class="ascii-art">
+            <strong>                                                                                    
+                `7MN.   `7MF'                                                    
+                MMN.    M                                     __,              
+                M YMb   M  pd""b.  ,pP"Ybd `7M'    ,A    `MF'`7MM  `7MMpMMMb.  
+                M  `MN. M (O)  `8b 8I   `"   VA   ,VAA   ,V    MM    MM    MM  
+                M   `MM.M      ,89 `YMMMa.    VA ,V  VA ,V     MM    MM    MM  
+                M     YMM    ""Yb. L.   I8     VVV    VVV      MM    MM    MM  
+              .JML.    YM       88 M9mmmP'      W      W     .JMML..JMML  JMML.
+                          (O)  .M'                                             
+                           bmmmd'                                              
+            </strong>
+        </div>
+    </header>
+    <main class="whoami">
+        <div class="command-line">
+            <span class="prompt">anubis@deathgod&nbsp;&gt;&nbsp;whoami</span>
+            <span class="cursor" id="cursor">&#124;</span>
+        </div>
+        <p>Neswin is a curious offensive security researcher and aspiring red teamer from the Philippines, began programming at the age of 11. However, due to mental health challenges, he took a break and focused on recovery for several years.</p>
+        <p>Despite the obstacles, Neswin didn't give up. At 15, he resumed his learning journey. Now 16, he possesses a diverse skill set, ranging from penetration testing and video editing to moderating and graphic design. However, his primary focus lies in practicing red teaming, with a keen interest in binary exploitation and a desire to master malware development. Neswin loves finding 0days too.</p>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy; Anubis</p>
+    </footer>
+
+    <script>
+        // JavaScript to toggle cursor animation
+        const cursor = document.getElementById('cursor');
+
+        setInterval(() => {
+            cursor.style.visibility = (cursor.style.visibility === 'visible') ? 'hidden' : 'visible';
+        }, 500); // Toggle every 500 milliseconds (0.5 seconds)
+    </script>
+</body>
+</html>
