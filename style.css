@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+header {
+    text-align: center;
+}
+
+.ascii-art {
+    color: red;
+    font-family: 'JetBrains Mono', monospace;
+    white-space: pre;
+    margin: 0 auto;
+    margin-right: 150px;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sections {
+    color: white;
+}
+
+.sections a {
+    color: white;
+    text-decoration: none;
+}
+
+.sections h4 {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.sections h4:hover {
+    color: red;
+}
+
+.copyright {
+    margin-top: 20px;
+    color: white;
+}
